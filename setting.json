@@ -1,5 +1,11 @@
 {
     "TOKEN": "MTE4ODExNDg3NDExMTM2MTEwNQ.GTJgOR.uP8-f688QG_z5XSVwHxttI3zPokl3kacLaweLg",
     "Welcome_channel": "1217763083288580136",
-    "Leave_channel": "1217763163378810890"
+    "Leave_channel": "1217763163378810890",
+    "pic": ["C:\\Users\\USER\\Desktop\\GitHub\\Tut-bot\\pic\\ngnl.jpg",
+            "C:\\Users\\USER\\Desktop\\GitHub\\Tut-bot\\pic\\百鬼.jpg",
+            "C:\\Users\\USER\\Desktop\\GitHub\\Tut-bot\\pic\\shiro.gif"],
+    "url_pic": ["https://meta-static.op.gg/logo/image/0a5e3a2ff1d51e04c3e61f4346cb3518.png?image=q_auto,f_webp,w_auto,h_448&v=1708681571653",
+                "https://s-lol-web.op.gg/images/icon/icon-opgglogo-white.svg?v=1708681571653"]
+
 }
