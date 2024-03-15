@@ -1,3 +1,4 @@
+# setting.json 設定檔
 import discord
 from discord.ext import commands
 import json

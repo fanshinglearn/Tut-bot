@@ -1,3 +1,4 @@
+# 傳送圖片訊息
 import discord
 from discord.ext import commands
 import json

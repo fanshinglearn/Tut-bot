@@ -1,3 +1,4 @@
+# 成員 加入/離開 事件
 import discord
 from discord.ext import commands
 
