@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json
 
-with open('./setting.json', 'r', encoding='utf8') as jfile:
+with open('setting.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 intents = discord.Intents.all()
