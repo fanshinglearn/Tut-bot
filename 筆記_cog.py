@@ -12,6 +12,20 @@ class Main(Cog_Extension):
     # 加入 self
     async def hi(self, ctx):
         await ctx.send('HELLO')
+    
+    # on... 要用 @commands.Cog.listener()
+    @commands.Cog.listener()
+    # on_message()
+    async def on_message(self, msg):
+        # 各種變化
+        keyword = ['apple', 'pen', 'pie', 'abc']
+        # if msg.content == 'apple':
+        # if msg.content.endswith('apple'):
+        # 加入 msg.author != self.bot.user 可讓 bot 不陷入無限迴圈
+        # if msg.content == 'apple' and msg.author != self.bot.user:
+        if msg.content in keyword and msg.author != self.bot.user:
+            await msg.channel.send('apple')
+
 
 # 主程式呼叫 setup 傳入 bot 給 Main class
 # 新版本 discore.py 似乎需要加入 async 和 await
