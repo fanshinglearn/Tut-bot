@@ -1,1 +1,22 @@
 # Tut-bot
+
+## EP2
+* 成員 加入/離開 事件
+
+## EP3
+* 指令
+
+## EP4
+* setting.json 設定檔
+
+## EP5
+* 傳送圖片訊息
+
+## EP6
+* Cog
+
+## EP7
+* on_message 關鍵字觸發
+
+## EP8
+* Embed 嵌入訊息
