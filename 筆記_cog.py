@@ -41,6 +41,21 @@ class Main(Cog_Extension):
         embed.add_field(name="4", value="444", inline=False)
         embed.set_footer(text="嬰兒")
         await ctx.send(embed=embed)
+    
+    # 訊息複誦
+    @commands.command()
+    # * 會把因為空格分成 list 的一起傳
+    async def sayd(self, ctx, *, msg):
+        await ctx.message.delete()
+        await ctx.send(msg)
+    
+    # 清理訊息
+    @commands.command()
+    # 通常函數命名為 purge
+    # 註解 num:int 就不用再轉換成 int
+    async def clean(self, ctx, num:int):
+        # 因傳送 [clean 3 也算一則訊息，需 +1
+        await ctx.channel.purge(limit=num+1)
 
 
 # 主程式呼叫 setup 傳入 bot 給 Main class
