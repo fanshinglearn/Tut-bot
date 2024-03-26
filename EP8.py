@@ -1,17 +1,15 @@
+# Embed 嵌入訊息
+# --> cmds / main.py
+
+# https://cog-creators.github.io/discord-embed-sandbox/
+
 import discord
 from discord.ext import commands
 from core.classes import Cog_Extension
 import datetime
 
 class Main(Cog_Extension):
-    @commands.command()
-    async def ping(self, ctx):
-        await ctx.send(f'{round(self.bot.latency*1000)} (ms)')
-    
-    @commands.command()
-    async def hi(self, ctx):
-        await ctx.send('HELLO')
-    
+    # Embed 嵌入訊息
     @commands.command()
     async def em(self, ctx):
         embed=discord.Embed(title="op.gg", url="https://www.op.gg/", description="lol", color=0x4596bf,
