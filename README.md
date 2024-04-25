@@ -1,5 +1,10 @@
 # Tut-bot
 
+# metion 
+```python 
+await ctx.send('<@511899806826758148>')
+```
+
 ## EP2
 * 成員 加入/離開 事件
 
